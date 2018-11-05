@@ -1,4 +1,4 @@
-<span style="display:block;text-align:center">![](logo.png)</span>
+![](logo.png)
 
 # Roaming
 
