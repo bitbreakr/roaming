@@ -1,5 +1,3 @@
-// import City from '../city'
-// import State from '../state'
 const fs = require("fs")
 const path = require("path")
 const glob = require("glob")
