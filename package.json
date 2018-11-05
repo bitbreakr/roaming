@@ -13,6 +13,21 @@
     "build": "tsc",
     "test": "jest"
   },
+  "keywords": [
+    "country",
+    "country-list",
+    "country-data",
+    "country-codes",
+    "country-informations",
+    "country",
+    "country list",
+    "country data",
+    "country codes",
+    "country informations",
+    "world",
+    "land",
+    "ISO"
+  ],
   "jest": {
     "transform": {
       "^.+\\.tsx?$": "ts-jest"
