@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "./dist/index.js",
   "license": "Unlicense",
-  "description": "AA",
+  "description": "Roaming is a module that let you get a country informations from a given ISO2 code and to also retrieve a list of countries from a certain given criteria such as the subregion. ",
   "repository": "https://github.com/bitbreakr/roaming",
   "author": "Yan Philippe",
   "private": false,
