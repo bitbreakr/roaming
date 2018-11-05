@@ -14,7 +14,7 @@ yarn add roaming or npm install --save roaming
 
 There are many ways to import the module, here is a list of ways you can import it according your environment and coding style.
 
-````
+```
 // 1.
 const roaming = require('roaming');
 
@@ -26,7 +26,6 @@ import * as roaming from 'roaming';
 
 // 4.
 import { get, find } from 'roaming';
-
 ```
 
 ## How to use
@@ -69,7 +68,7 @@ async () => {
   // Outputs a list of countries matching the query
   console.log(westernEurope);
 };
-````
+```
 
 #### Some query examples
 
