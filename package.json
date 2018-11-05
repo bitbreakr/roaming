@@ -1,0 +1,54 @@
+{
+  "name": "roaming",
+  "version": "1.0.0",
+  "main": "./dist/index.js",
+  "license": "Unlicense",
+  "description": "AA",
+  "repository": "https://github.com/bitbreakr/roaming",
+  "author": "Yan Philippe",
+  "private": false,
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "prepare": "npm run build",
+    "build": "tsc",
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testRegex": "^.+\\.spec\\.ts$"
+  },
+  "files": [
+    "lib"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{ts,js,json,css,md}": [
+      "prettier --write --no-semi",
+      "git add"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "^23.3.9",
+    "axios": "^0.18.0",
+    "husky": "^1.1.3",
+    "jest": "^23.6.0",
+    "lint-staged": "^8.0.4",
+    "prettier": "1.14.3",
+    "ts-jest": "^23.10.4",
+    "typescript": "^3.1.6"
+  },
+  "dependencies": {
+    "@types/node": "^10.12.2",
+    "glob": "^7.1.3"
+  }
+}
