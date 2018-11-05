@@ -1,3 +1,5 @@
+<span style="display:block;text-align:center">![](logo.png)</span>
+
 # Roaming
 
 [![Build Status](https://travis-ci.com/bitbreakr/roaming.svg?branch=develop)](https://travis-ci.com/bitbreakr/roaming)
