@@ -8,7 +8,7 @@
 
 ## Install
 
-```
+```bash
 yarn add roaming or npm install --save roaming
 ```
 
@@ -16,7 +16,7 @@ yarn add roaming or npm install --save roaming
 
 There are many ways to import the module, here is a list of ways you can import it according your environment and coding style.
 
-```
+```js
 // 1.
 const roaming = require('roaming');
 
@@ -36,7 +36,7 @@ import { get, find } from 'roaming';
 
 Returns a country from a given ISO-2 country code
 
-```
+```js
 /*
 * This should output the country object of country
 *  France with all props related to this latter one.
@@ -54,7 +54,7 @@ Returns a country from a given ISO-2 country code
 
 ### .find(query: object)
 
-```
+```js
 /*
 * This should output a list of country objects
 * that match the query. Queries of deep nested elements
@@ -76,7 +76,7 @@ async () => {
 
 Get a list of countries by a given region:
 
-```
+```js
 /*
 * Available regions are:
 * - 'Europe'
@@ -93,7 +93,7 @@ const asianCountries = await roaming.find(query);
 
 Get a list of countries by a given subregion:
 
-```
+```js
 /*
 * Available subregions are:
 * - 'Southern Europe'
