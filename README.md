@@ -77,6 +77,7 @@ async () => {
 Get a list of countries by a given region:
 
 ```js
+
 /*
 * Available regions are:
 * - 'Europe'
@@ -94,6 +95,7 @@ const asianCountries = await roaming.find(query);
 Get a list of countries by a given subregion:
 
 ```js
+
 /*
 * Available subregions are:
 * - 'Southern Europe'
